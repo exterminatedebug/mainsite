@@ -1,7 +1,7 @@
-# Exterminate Debug
+# Mainsite
 
-Debugging services.
+This is the main Exterminate website
 
-## Mainsite
+## Link Tags
 
-This is the repository for the main website.
+A list of tags to go between ```html <head>``` and ```html </head>```
