@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #59AED1;
+  //transform: translateX(-16px);
+}
+
+h1 {
+  color: #6DBD53;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  top: 0px;
+  left: 0px;
+  background-color: #171B45;
+  position: absolute;
+  width: 100%;
+  position: fixed;
+}
+
+#navbar {
+  color: rgb(93, 174, 208);
+  position: absolute;
+  left: 265px;
+  top: 19px;
+  background-color: rgba(93, 174, 208, 0.144);
+  border-bottom: 3px solid rgb(93, 174, 208);
+}
+
+.maintext {
+  margin-top: 75px;
+}
+
+#logo-and-text-button {
+  cursor: pointer;
+}
+
+.active-link {
+  color: #6dbd55;
+}
+
+.counter {
+  font-size: 100px;
+  background-color: #171c45;
+  color: #6dbd52;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: 5px solid #6dbd52;
+  font-family: 'Roboto Mono', monospace;
+  cursor: default;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    color: rgb(93, 174, 208);
+    transform: translate(-270px, 55px);
+    position: auto;
+    border-bottom: 3px solid rgb(93, 174, 208);
+    background-color: rgb(27, 64, 80);
+    width: 140px;
+  }
+  .maintext {
+    margin-left: 40%;
+  } 
+  #home-nav {
+    text-align: left;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+#body {
+  height: 100px;
+}
+
+.link {
+  color: #c73e34;
+  cursor: pointer;
+}
